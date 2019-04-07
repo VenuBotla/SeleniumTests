@@ -91,4 +91,5 @@ public class HomepageStepDefinitions extends BaseClass {
 	    WebDriverWait wait = new WebDriverWait(browser, 10);
 	    WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(searchTextField)));
 	}
+	
 }
